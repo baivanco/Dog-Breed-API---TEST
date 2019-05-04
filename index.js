@@ -16,7 +16,12 @@ const port = 3000;
 
 app.set('view engine', 'ejs');
 app.use(session({
-  secret: "breed"
+  secret: "breed",
+  resave: false,
+  saveUninitialized: true,
+  cookie: {
+    secure: true
+  }
 }))
 app.use(myParser.urlencoded({
   extended: true
