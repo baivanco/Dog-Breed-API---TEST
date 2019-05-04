@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dog Breeds</title>
+  <link rel="stylesheet" href="static/mybreed.css">
+</head>
+
+
+<body>
+
+
+  <div class="header">
+    <a id="a_logout"href="/logout">Logout</a>
+  </div>
+
+  <div class="text">
+  <h1>My Favorite Dog Breed is ...</h1>
+  </div>
+
+  <div class="image-container">
+
+
+    <div class="img left">
+      <img src="<%= dogs.message[0] %>" alt="">
+    </div>
+    <div class="img middle">
+      <img src="<%= dogs.message[1] %>" alt="">
+    </div>
+    <div class="img right">
+      <img src="<%= dogs.message[2] %>" alt="">
+    </div>
+
+
+  </div>
+    <button type="button" name="button" onclick="location.reload()">More Malinois</button>
+
+
+
+
+  <footer>©Ivan Tasevski 2019 All Rights Reserved  </footer>
+  <span id="discl">*Original images - dataset taken from the the <a id="imgsrc"href="http://vision.stanford.edu/aditya86/ImageNetDogs/" target="_blank">Stanford Dogs Dataset</a></span>
+
+  <span id="dogapi"> Served by <a href="https://dog.ceo/dog-api/" target="_blank">Dog API</a> </span>
+
+
+</body>
+
+</html>

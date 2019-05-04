@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="static/users.css">
+
+</head>
+
+<body>
+
+  <a href="/admin">Back</a>
+
+  <% for(let i = 0 ; i < users.length ; i ++ ){%>
+  <table id="t01">
+    <caption>
+      <%= users[i].id %>
+    </caption>
+
+    <tr>
+      <th>First Name</th>
+      <td>
+        <%= users[i].firstname %>
+      </td>
+    </tr>
+
+    <br>
+    <br>
+    <tr>
+      <th>Last Name</th>
+      <td>
+        <%= users[i].lastname %>
+      </td>
+    </tr>
+
+    <tr>
+      <th>Email</th>
+      <td>
+        <%= users[i].email %>
+      </td>
+    </tr>
+
+    <tr>
+      <th>Type</th>
+      <td>
+        <%= users[i].type %>
+      </td>
+    </tr>
+
+    <tr>
+      <th>Date Registered</th>
+      <td>
+        <%= users[i].created_at %>
+      </td>
+    </tr>
+
+    <%}%>
+
+  </table>
+
+
+</html>

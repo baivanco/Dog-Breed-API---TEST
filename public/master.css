@@ -1,0 +1,95 @@
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i.400,700,700i,900');
+
+  body {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #00BBB6;
+    background-image: url('HomeBackground.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  button {
+    margin-top: 40px;
+    border: none;
+    width: 272px;
+    height: 73px;
+    background: #C9E6FF;
+    color: #007775;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 45px;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    cursor: pointer;
+    margin-top: 40px;
+    border: none;
+    width: 272px;
+    height: 73px;
+    background: #BBD6EA;
+    color: #007775;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 45px;
+    transition: 0.3s
+  }
+
+  button:active {
+    cursor: pointer;
+    margin-top: 40px;
+    border: none;
+    width: 272px;
+    height: 73px;
+    background: #fff;
+    color: #007775;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 45px;
+    transition: 0.3s;
+    transform: scale(0.9);
+  }
+
+  #but-2 {
+    width: 450px;
+    border: none;
+  }
+
+  h1 {
+    font-size: 84px;
+    margin-top: 123px;
+    margin-bottom: 0px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  }
+
+  footer {
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 1.05px;
+  }

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i.400,500,700,700i,900');
+
+body {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #00BBB6;
+  background-image: url('MyBreedBackground.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.text {
+  margin-top: 50px;
+}
+
+.text h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 98px;
+  font-weight: 900;
+  text-align: left;
+}
+
+#left {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+#a_logout {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: #C9E6FF;
+  display: block;
+  position: absolute;
+  right: 80px;
+  top: 30px;
+}
+
+#a_logout:hover {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: #000;
+  display: block;
+  position: absolute;
+  right: 80px;
+  top: 30px;
+}
+
+.image-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+}
+
+.img {
+  background: #007775;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
+  opacity: 0.8;
+  width: 500px;
+  height: 400px;
+  object-fit: contain;
+  border: 2px solid #045958;
+  overflow: hidden;
+  padding: 8px;
+  transition: 0.7s;
+  transform: scale(1);
+}
+
+.img:hover {
+  background: #007775;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
+  margin-bottom: 0;
+  opacity: 1;
+  width: 500px;
+  height: 400px;
+  object-fit: contain;
+  border: 2px solid #C9E6FF;
+  overflow: hidden;
+  padding: 8px;
+  transition: 0.5s;
+  transform: scale(1.1);
+  z-index: 3;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 10px;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 1.05px;
+}
+
+button {
+  margin-bottom: 50px;
+  border: none;
+  width: 200px;
+  height: 53px;
+  background: #C9E6FF;
+  color: #007775;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 25px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  margin-bottom: 50px;
+  border: none;
+  width: 200px;
+  height: 53px;
+  background: #bad3e8;
+  color: #007775;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 25px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+#discl {
+  font-size: 13px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#imgsrc {
+  color: #fff;
+}
+
+#imgsrc:hover {
+  color: #000;
+}
+
+#dogapi {
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+#dogapi a {
+  color: #fff;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i.400,500,700,700i,900');
+
+body {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #00BBB6;
+  background-image: url('MyBreedBackground.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#a_logout {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: #C9E6FF;
+  display: block;
+  position: absolute;
+  right: 80px;
+  top: 30px;
+}
+
+#a_logout:hover {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: #000;
+  display: block;
+  position: absolute;
+  right: 80px;
+  top: 30px;
+}
+
+#a_back {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: #C9E6FF;
+  display: block;
+  position: absolute;
+  right: 200px;
+  top: 30px;
+}
+
+#a_back:hover {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: #000;
+  display: block;
+  position: absolute;
+  right: 200px;
+  top: 30px;
+}
+
+a {
+  color: #fff;
+  font-size: 22px;
+}
+
+a:hover {
+  color: #000;
+  font-size: 22px;
+}

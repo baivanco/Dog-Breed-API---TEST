@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i.400,500,700,700i,900');
+
+body {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #00BBB6;
+  background-image: url('EmailRegisteredBackground.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.box_alert {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  background: #007775;
+  color: #fff;
+  padding: 20px 50px;
+  margin-right: 50px;
+}
+
+.alert h1 {
+  color: #007775;
+  font-size: 280px;
+  margin: 0;
+}
+
+span {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+a {
+  color: #fff;
+  font-weight: 700;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 1.05px;
+}
