@@ -3,7 +3,10 @@ Node.js project exercise
 
 API test working - with login and register forms(db included, auth and admin access) with frontend design.
 
-#### Clone the repository and run ## node index.js #### in the directory folder
+#### Clone the repository 
+run
+## node index.js 
+in the directory folder
 
 ### Screenshot
 
