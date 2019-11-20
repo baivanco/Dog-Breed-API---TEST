@@ -1,8 +1,11 @@
 ## Dog-Breed-API---TEST
 Node.js project exercise
 
+#### Description
 API test working - with login and register forms(db included, auth and admin access) with frontend design.
 
+
+## To start :
 #### Clone the repository and in directory folder run 
 ### `node index.js`
 
